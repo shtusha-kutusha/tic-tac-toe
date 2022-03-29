@@ -1,0 +1,56 @@
+body {
+  background-color: aquamarine;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10% 0 0 0;
+}
+
+.field {
+  display: grid;
+  width: 450px;
+  height: 450px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  border: 4px solid rgb(15, 163, 114);
+}
+
+.activeCrossSign {
+  
+  color: rgba(255, 0, 106, 0.76);
+}
+
+.activeZeroSign {
+  color: rgb(0, 183, 255);
+}
+
+.startOver {
+  width: 150px;
+  height: 50px;
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  background-color: rgb(17, 182, 127);
+  border-radius: 10px;
+  border: none;
+}
+
+.resultText {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
